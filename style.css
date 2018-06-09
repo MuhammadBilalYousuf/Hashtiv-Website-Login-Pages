@@ -1,0 +1,428 @@
+.example1 
+{
+  background-image: -moz-linear-gradient( 135deg, rgb(87,71,110) 46%, rgb(180,104,172) 100%);
+  background-image: -webkit-linear-gradient( 135deg, rgb(87,71,110) 46%, rgb(180,104,172) 100%);
+  background-image: -ms-linear-gradient( 135deg, rgb(87,71,110) 46%, rgb(180,104,172) 100%);
+  position: absolute;
+  left: 734px;
+  top: 130px;
+  width: 2586px;
+  height: 1510px;
+  z-index: 2;
+position: fixed; 
+top: 0; 
+left: 0; 
+/* Preserve aspet ratio */
+min-width: 100%;
+min-height: 100%;
+}
+.center
+{
+    border-radius: 5px 5px 5px 5px;
+background: white;
+margin: auto;
+width: 85%;
+position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+}
+.insideDiv
+{
+width: 35%;
+height:500px;
+background-color:white;
+float:left;
+border-radius: 8px 0px 0px 8px;
+}
+.navDiv
+{
+width: 65%;
+height:500px;
+background-color:white;
+float:right;
+border-radius: 0px 8px 8px 0px;
+}
+.mainDiv
+{
+position: absolute;
+top: 55px;
+margin-right: -70px;
+right: 0;
+width: 71%;
+height: 72%;
+border-radius: 5px 5px 5px 5px;
+
+}
+.sliderDiv
+{
+width: 60%;
+height:370px;
+background-color:white;
+float:left;
+border-radius: 8px 0px 0px 8px;
+box-shadow:-5px 0px 15px 0px #ccc;
+}
+.loginDiv
+{
+width: 40%;
+height:370px;
+background-color:white;
+float:right;
+border-radius: 0px 8px 8px 0px;
+box-shadow:0 0 18px #ccc; 
+    
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: 180px;
+     margin-top: -45px;
+    margin-left: -45px;
+    width: 70%;
+}   
+.container
+{
+position: absolute;
+top: 30%;
+}
+.container input
+{
+padding: 5px;
+margin-bottom: 30px;
+width: 23%;
+box-sizing: border-box;
+box-shadow: none;
+outline: none;
+border:none;
+border-bottom: 2px solid #d9d9d9;
+}
+.container form div
+{
+position: relative;
+}
+.container form div label
+{
+color: #57476e;
+position: absolute;
+top: 3px;
+pointer-events: none;
+left: 0;
+transition: .5s;
+}
+.container input:focus ~label,
+.container input:valid ~label
+{
+left: 0;
+top: -20px;
+color: rgb(66,133,244);
+font-size: 12px;
+font-weight: bold;
+}
+.container input:focus,
+.container input:valid
+{
+border-bottom: 2px solid rgb(66,133,244);
+}
+
+
+.round {
+  position: relative;
+    margin-left: 130px;
+}
+
+.round label {
+  background-color: #fff;
+  border: 3px solid #57476e;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  width: 15px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+    
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #57476e;
+  border-color: #57476e;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+.round p {
+    size: 13px;
+	font-family: Myriad Pro;
+	color: #333;
+    font-weight: bold;
+    color:#57476e;
+    margin-top: -69px;
+     margin-left: 24px;
+}
+.container2{
+    margin-top: -90px;
+    margin-left: 16px;
+}
+.button {
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 50px 30px -15px;
+    cursor: pointer;
+}
+.button1 {
+   border-radius: 2px; 
+    width:120px;
+    height: 30px;
+  background-color: white;
+  border:3px solid #60517c;
+  color: #60517c;
+  border-radius: 5px 5px 5px 5px;
+  font-weight: bold;
+}
+.button2 {
+  border-radius: 2px; 
+  width:120px;
+    height: 30px;
+  background-color: #60517c;
+  border:2px solid #60517c;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+.container3{
+    margin-left: 7px;
+}
+.txt1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 13px;
+    font-weight: bold;
+  color: #60517c;
+    margin: 0 auto;
+    padding: 40px;   
+}
+.login100-form-avatar {
+max-width: 100%;
+height: auto !important;
+     display:block;
+    margin: 0 auto;
+    width: 30%;
+ 
+}
+.login100-form-avatar img {
+    margin-top: 15px;
+    margin-left: -125px;
+  width: 30%;
+}
+.whatsindside{
+max-width: 100%;
+height: auto !important;
+     display:block;
+    margin: 0 auto;
+ 
+}
+.whatsindside img {
+    margin-top: 40px;
+    margin-left: 80px;
+    height: 290px;
+  width: 70%;
+}
+/* slider */
+.carousel-indicators{
+      
+    margin-left: -630px;
+     margin-top: 70px;
+      height: 200px; /* Whatever */
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.carousel-indicators li{
+    border:3px solid #b468ac;
+   word-spacing: 30px;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+padding: 8px;
+position: relative;
+background: #b468ac;
+text-align: center;
+}
+/* button */
+
+
+.container-fluid {
+position: fixed;
+margin-right: -140px;
+margin-top: 50px;
+margin-left: 68px;
+}
+
+.big-btn {
+/*padding: px 15px 10px 0px;*/
+padding: 17px 0px 10px 0px;
+width: 120px;
+height: 50px;
+background-color: #FFF;
+border: 3px solid #5a5c5b;
+ border-radius: 8px 8px 8px 8px;
+}
+
+.big-btn i {
+font-size: 50px;
+color: #5a5c5b;
+margin-right: -0px !important;
+}
+
+.big-btn strong {
+font-size: 16px;
+color: #5a5c5b;
+    display: block;
+text-align: left;
+line-height: 10px;
+
+}
+
+.big-btn .btn-text {
+margin-top: -20px;    
+}
+
+.big-btn small {
+font-size: 45%;
+font-weight: 1000;    
+color: #5a5c5b;
+}
+
+
+.android-btn {
+width: 120px;
+height: 50px;
+padding: 5px 15px 10px 0px;
+background-color: #FFF;
+border: 3px solid #5a5c5b;
+border-radius: 8px 8px 8px 8px;
+}
+
+.android-btn small {
+font-size: 5px;
+margin-left: -22px;
+font-weight: 1000;
+color: #5a5c5b;
+}
+
+.android-btn strong {
+color: #5a5c5b;
+text-align: right;
+font-size: 14px;
+line-height: 10px;
+    position: absolute;
+	left:180px;
+}
+
+.glyphicon.glyphicon-phone {
+font-size: 30px;
+margin-top: -12px;
+margin-left: 2px;
+}
+.android-btn .btn-text2{
+    margin-top: -10px;
+}
+.asText {
+background:none;
+border:none;
+border: none;
+background-color: inherit;
+margin:10px;
+font-size: 16px;
+}
+.buttonGroup{
+color: #60517c;
+margin-left:205px;
+margin-top: 440px;
+}
+.carousel-inner { 
+  position: relative;
+}
+.slider {
+  max-width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+}
+.item active,.item,.item2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.item active {
+/*
+  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371566801_p17tbs0rrjqdt1u4dnk94fe4b63.jpg)no-repeat center;
+      background-size: cover;
+*/
+    animation:fade 0s infinite;
+-webkit-animation:fade 0s infinite;
+
+} 
+.item {
+/*
+  background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371565525_p17tbqpu0d69c21hetd77dh483.jpeg)no-repeat center;
+      background-size: cover;
+*/
+    animation:fade2 0s infinite;
+-webkit-animation:fade2 0s infinite;
+}
+.item {
+/*
+    background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371564896_p17tbq6n86jdo3ishhta3fv1i3.jpg)no-repeat center;
+      background-size: cover;
+*/
+    animation:fade3 0s infinite;
+-webkit-animation:fade3 0s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
